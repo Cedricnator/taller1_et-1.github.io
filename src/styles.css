@@ -8,10 +8,22 @@
 */
 
 
+
 .custom-bg {
     background-image: url(../public/images/bg-custom.png);
-    background-position: center;
-    background-size: auto;
+    background-position: center center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
+.bg-cream-400 {
+    background-color: #DFD2C8;
+}
+
+.bg-cream-200 {
+    background-color: #F0EAE5;
+}
+
+.text-cream-400 {
+    color: #DFD2C8;
+}
