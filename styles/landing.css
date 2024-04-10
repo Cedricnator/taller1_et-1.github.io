@@ -5,12 +5,14 @@
     --color-cream-white: #DFD2C8;
     --color-creamy-white: #F0EAE5;
 }
-body{
+
+body {
     padding: 0;
     margin: 0;
     background-color: var(--color-black);
 }
-section{
+
+section {
     background-color: var(--color-black);
 }
 
@@ -18,68 +20,78 @@ section{
     background-color: #F0EAE5;
 }
 
-.container-main-img{
+.container-main-img {
     padding-left: 50px;
     padding-top: 100px;
-    
+
 }
 
-.text-paragraph{
+.text-paragraph {
     padding-top: 100px;
     font-family: 'Lora';
 }
 
-.welcome-container{
-    margin-bottom: 150px    ;
+.welcome-container {
+    margin-bottom: 150px;
 }
 
-.h1-welcome{
+.h1-welcome {
     font-size: 80px;
 }
-.p-welcome{
+
+.p-welcome {
     margin-top: 79px;
     font-size: 22px;
 }
 
-.carrousel{
+.carrousel {
     padding-left: 2rem;
     padding-right: 2rem;
 }
 
-.img-cont-v{
+.img-cont-v {
     padding-left: 10rem;
     padding-top: 2em;
 }
 
-.text-v-cont{
+.text-v-cont {
     font-family: 'Lora';
     background-color: rgba(240, 234, 229, 0.4);
     border-radius: 15px 15px 15px 15px;
 }
-.navbar-nav .nav-link {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center-align the flex items */
-  }
-  .navbar-nav .nav-link img {
-    margin-bottom: 0.5rem; /* Add some space between the image and the text */
-  }
 
-.comments-row{
+@media (min-width: 992px) {
+
+    .navbar-nav .nav-link {
+        width: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link img {
+        margin-bottom: 0.5rem;
+    }
+}
+
+.comments-row {
     padding-top: 10%;
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 300px;
 }
 
-#h3-comments{
+#h3-comments {
     font-size: 44px;
 }
 
-#p-comments{
+#p-comments {
     font-size: 25px;
 }
 
-footer{
+footer {
     background-color: var(--color-cream-white);
     display: flex;
     height: 75px;
@@ -87,18 +99,17 @@ footer{
     align-items: center;
 }
 
-.footer-text{
+.footer-text {
     position: absolute;
     font-family: 'Roboto';
     display: flex;
 }
 
-.rights-text{
+.rights-text {
     margin-left: auto;
 }
 
-#a-start{
+#a-start {
     text-decoration: none;
     text-emphasis-color: var(--color-black);
 }
-
