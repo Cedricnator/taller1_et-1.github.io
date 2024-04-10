@@ -111,5 +111,11 @@ footer {
 
 #a-start {
     text-decoration: none;
-    text-emphasis-color: var(--color-black);
+    color: black;
+    transition: color 0.3s ease;
+}
+
+#a-start:hover{
+    color: rgba(0, 0, 0, 0.55);
+    transition-delay: 0.1s;
 }
