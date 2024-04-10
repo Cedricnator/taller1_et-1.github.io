@@ -56,6 +56,13 @@ section{
     background-color: rgba(240, 234, 229, 0.4);
     border-radius: 15px 15px 15px 15px;
 }
+.navbar-nav .nav-link {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align the flex items */
+  }
+  .navbar-nav .nav-link img {
+    margin-bottom: 0.5rem; /* Add some space between the image and the text */
+  }
 
 .comments-row{
     padding-top: 10%;
@@ -88,5 +95,10 @@ footer{
 
 .rights-text{
     margin-left: auto;
+}
+
+#a-start{
+    text-decoration: none;
+    text-emphasis-color: var(--color-black);
 }
 
