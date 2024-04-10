@@ -100,13 +100,24 @@
                 <div class="row" style="text-align: right">
                     <div class="col"></div>
                     <div class="col">
-                        <button type="submit" class="boton-enviar">Enviar</button>
+                        <button type="submit" class="boton-enviar" id="boton-enviar">Enviar</button>
                     </div>
                 </div>
             </form>
+
         </div>
     </div>
 </div>
+<script>
+    document.getElementById('boton-enviar').addEventListener('click', function(event) {
+        event.preventDefault(); // Evita que el formulario se envíe
 
+        alert('Gracias por tu mensaje. Te responderemos lo antes posible.');
+        document.getElementById('nombre').value = '';
+        document.getElementById('correo').value = '';
+        document.getElementById('asunto').value = '';
+        document.getElementById('mensaje').value = '';
+    });
+</script>
 </body>
 </html>

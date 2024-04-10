@@ -55,3 +55,7 @@ a {
     text-decoration: none;
     color: #DFD2C8;
 }
+a:hover {
+    scale: 1.1;
+    font-weight: bold;
+}
