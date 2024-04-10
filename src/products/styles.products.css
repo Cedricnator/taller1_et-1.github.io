@@ -11,10 +11,19 @@
 
 
 .custom-bg {
-    background-image: url(../public/images/bg-custom.png);
+    background-image: url(../../public/images/bg-custom.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 1); /* Agrega oscuridad al fondo */
+
+}
+
+.title {
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 2.1rem;
+    color: #917866;
 }
 
 .bg-cream-100 {
