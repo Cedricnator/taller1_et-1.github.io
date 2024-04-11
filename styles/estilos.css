@@ -1,0 +1,170 @@
+:root {
+    --color-black: #262A26;
+    --color-dark-brown: #5D4737;
+    --color-light-brown: #8A6A51;
+    --color-cream-white: #DFD2C8;
+    --color-creamy-white: #F0EAE5;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(36, 39, 36);
+}
+
+header{
+    background: rgb(237, 236, 234);
+    padding: 10px;
+    text-align: right;
+    
+}
+
+.logo{
+
+    width: 30px;
+    margin-bottom: -7px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 111px;
+    
+}
+
+.enlace{
+    margin-top: 0.5rem;
+    margin-right: 60px;
+    
+    
+
+}
+
+.formulario{
+
+    text-align: center;
+}
+
+input{
+
+    width: 500px;
+    height: 40px;
+    margin: 22px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    padding-left: 10px;
+
+}
+
+input[type="text"]::placeholder{
+
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 15px;
+   margin-left: 11px;
+    
+}
+
+input[type="email"]::placeholder{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+     
+ }
+
+ input[type="password"]::placeholder{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+     
+ }
+
+.Boton-registro{
+
+    width: 300px;
+    height: 50px;
+    border-radius: 26px;
+    background: #5D4737;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 32px
+}
+
+.Boton-inicio-sesion{
+
+    width: 300px;
+    height: 50px;
+    border-radius: 26px;
+    background: #5D4737;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 32px
+}
+
+
+
+.Titulo{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+    font-weight: normal;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 2.8rem;
+}
+
+.item {
+    display: flex;
+    height: 2.9rem;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+}
+
+@media (min-width: 992px) {
+
+    .navbar-nav .nav-link {
+        width: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link img {
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+footer{
+
+    background: rgb(237, 236, 234);
+    padding: 22px;
+    margin-top: 230px;
+    text-align: center;
+}
+
+
+footer.Pie_de_pagina_Inicio_Sesion{
+
+    background: rgb(237, 236, 234);
+    padding: 22px;
+    margin-top: 410px;
+    text-align: center;
+
+}
