@@ -37,7 +37,7 @@ a{
 }
 
 .enlace{
-
+    margin-top: 0.5rem;
     margin-right: 60px;
     
     
@@ -110,12 +110,45 @@ input[type="email"]::placeholder{
 
 
 .Titulo{
-
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 30px;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+    font-weight: normal;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 2.8rem;
+}
+
+.item {
+    display: flex;
+    height: 2.9rem;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+}
+
+@media (min-width: 992px) {
+
+    .navbar-nav .nav-link {
+        width: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link img {
+        margin-bottom: 0.5rem;
+    }
+}
 
 
 footer{
