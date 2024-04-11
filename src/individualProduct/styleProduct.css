@@ -1,3 +1,11 @@
+:root {
+    --color-black: #262A26;
+    --color-dark-brown: #5D4737;
+    --color-light-brown: #8A6A51;
+    --color-cream-white: #DFD2C8;
+    --color-creamy-white: #F0EAE5;
+}
+
 .body{
     background-color: #262A26;
     padding-top: 5%;
@@ -196,6 +204,7 @@ footer{
 }
 
 .footer-text{
+    font-size: 24px;
     position: absolute;
     font-family: 'Roboto';
     display: flex;
@@ -203,5 +212,17 @@ footer{
 
 .rights-text{
     margin-left: auto;
+}
+
+/* cambios de manuel */
+#a-start {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+#a-start:hover{
+    color: rgba(0, 0, 0, 0.55);
+    transition-delay: 0.1s;
 }
 
