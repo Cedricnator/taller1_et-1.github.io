@@ -74,6 +74,11 @@ section {
     .navbar-nav .nav-link img {
         margin-bottom: 0.5rem;
     }
+
+    .nav-link:hover{
+        scale: 1.1;
+        font-weight: bold;
+    }
 }
 
 .comments-row {
@@ -115,7 +120,7 @@ footer {
     transition: color 0.3s ease;
 }
 
-#a-start:hover{
+#a-start:hover {
     color: rgba(0, 0, 0, 0.55);
     transition-delay: 0.1s;
 }
