@@ -63,3 +63,19 @@
     padding-top: 1.5rem;
     padding-left: 0.5rem;
 }
+
+@media (min-width: 992px) {
+
+    .navbar-nav .nav-link {
+        width: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link img {
+        margin-bottom: 0.5rem;
+    }
+}
