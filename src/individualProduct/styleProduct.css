@@ -64,6 +64,11 @@
     .navbar-nav .nav-link img {
         margin-bottom: 0.5rem;
     }
+
+    .nav-link:hover{
+        scale: 1.1;
+        font-weight: bold;
+    }
 }
 
 
